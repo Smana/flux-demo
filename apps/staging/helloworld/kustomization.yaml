@@ -4,6 +4,5 @@ namespace: demo
 resources:
   - ../../base/helloworld
   - secrets.yaml
-  - image-policy.yaml
 patchesStrategicMerge:
   - helm-values.yaml
