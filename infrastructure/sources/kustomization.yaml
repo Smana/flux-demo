@@ -3,6 +3,6 @@ kind: Kustomization
 namespace: flux-system
 
 resources:
-  - flux.yaml
+  - prometheus-community.yaml
   - helloworld.yaml
   - jetstack.yaml
