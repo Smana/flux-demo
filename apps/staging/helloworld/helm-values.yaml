@@ -10,4 +10,5 @@ spec:
   test:
     enable: false
   values:
+    image: "smana/helloworld:fake"
     replicaCount: 3
