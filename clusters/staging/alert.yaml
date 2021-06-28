@@ -2,6 +2,7 @@ apiVersion: notification.toolkit.fluxcd.io/v1beta1
 kind: Alert
 metadata:
   name: apps
+  namespace: flux-system
 spec:
   providerRef:
     name: flux-system
