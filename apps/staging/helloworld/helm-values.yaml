@@ -11,3 +11,4 @@ spec:
     enable: false
   values:
     replicaCount: 3
+    image: "smana/helloworld:staging-ba10491-1624890577" # {"$imagepolicy": "flux-system:helloworld"}

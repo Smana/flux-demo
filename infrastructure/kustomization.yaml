@@ -4,7 +4,8 @@ kind: Kustomization
 resources:
   - sources
   - secrets
-  - cert-manager
   - notifications
+  - images
+  - cert-manager
   - monitoring/kustomization-stack.yaml
   - monitoring/kustomization-config.yaml
