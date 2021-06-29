@@ -7,10 +7,16 @@ spec:
   chart:
     spec:
       version: ">=0.1.0"
-      valuesFiles:
-        - values.yaml
-        - staging-values.yaml
   test:
     enable: false
   values:
-    image: "smana/helloworld:staging-7ea9292-1624955358" # {"$imagepolicy": "flux-system:helloworld"}
+    global:
+      environment: "staging"
+      cluster: "staging"
+      region: "eu-west-1"
+    replicaCount: 2
+    resources:
+      limits:
+        cpu: 100m
+        memory: 198Mi
+    image: "smana/helloworld:staging-cd2c525-1624897137" # {"$imagepolicy": "flux-system:helloworld"}
