@@ -13,4 +13,4 @@ spec:
   test:
     enable: false
   values:
-    image: "smana/helloworld:staging-cd2c525-1624897137" # {"$imagepolicy": "flux-system:helloworld"}
+    image: "smana/helloworld:staging-7ea9292-1624955358" # {"$imagepolicy": "flux-system:helloworld"}
