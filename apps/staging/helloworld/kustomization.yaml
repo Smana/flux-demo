@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: demo
 resources:
   - ../../base/helloworld
+  - secrets.yaml
 patchesStrategicMerge:
   - helm-values.yaml
