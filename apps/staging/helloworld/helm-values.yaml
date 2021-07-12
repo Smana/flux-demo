@@ -19,4 +19,4 @@ spec:
       limits:
         cpu: 100m
         memory: 198Mi
-    image: "smana/helloworld:staging-41b0a8d-1625488055" # {"$imagepolicy": "flux-system:helloworld"}
+    image: "smana/helloworld:staging-93a9fcb-1626106467" # {"$imagepolicy": "flux-system:helloworld"}
